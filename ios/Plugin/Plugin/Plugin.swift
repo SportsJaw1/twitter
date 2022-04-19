@@ -57,7 +57,7 @@ public class TwitterPlugin: CAPPlugin
                         "userID": session?.userID as Any
                         ])
                 } else {
-                    print("logIn ERROR: \(String(describing: error))")
+                    print("logIn error: \(String(describing: error))")
                     call.error("error");
                 }
             })
